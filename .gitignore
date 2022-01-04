@@ -1,6 +1,6 @@
 /venv/
 /.cache
 /.idea/
-#/GUI.py
+#/BPM Sorter.py
 /Gui.spec
 /BPMSort.spec
