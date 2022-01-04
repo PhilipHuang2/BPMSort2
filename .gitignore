@@ -1,3 +1,6 @@
 /venv/
 /.cache
 /.idea/
+/GUI.py
+/Gui.spec
+/BPMSort.spec

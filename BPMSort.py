@@ -32,7 +32,6 @@ if __name__ == '__main__':
 
     print("Hey, we are loading your music to check it out.")
     results = sp.current_user_saved_tracks()
-    print("test")
     playList = results['items']
     while results['next']:
         results = sp.next(results)
@@ -57,9 +56,7 @@ if __name__ == '__main__':
 
     # print out results.
     print("Hey, we have finished categorizing your music.  Here is what we have found.")
-    options = []
     for key, value in sorted(speed.items()):
-        options.append(key)
         print("You have", len(value), "songs that are", key, "BPM for a total playtime of",
               str(int(playTime[key] / 60000)) + ":" + str(int(playTime[key] / 1000 % 60)), "minutes.")
     goodInput = False
