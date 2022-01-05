@@ -17,7 +17,7 @@ your browser.
 1. Download BPM Sorter.exe
 2. Run BPM Sorter.exe
 3. The program will open a tab in your chosen web browser.  Copy the url and input it into the input box.
-   ![test](\Images\Tutorial 1.png)
-4. The program will load all your songs, ask the Spotify API for their BPMs, and sort them.
-5. Then the program will display all your songs with the BPMs rounded for simplicity’s sake and ask you for 1 BPM to create a playlist around
-6. Then you are done!!! Congratulations
+![test](https://github.com/PhilipHuang2/BPMSort2/blob/master/Images/Tutorial%201.PNG)
+5. The program will load all your songs, ask the Spotify API for their BPMs, and sort them.
+6. Then the program will display all your songs with the BPMs rounded for simplicity’s sake and ask you for 1 BPM to create a playlist around
+7. Then you are done!!! Congratulations
